@@ -51,6 +51,8 @@ int main() {
     };
     
     cout << "\n";
+
+    // Finding Equality among three numbers
     
     bool iEqual;
     
