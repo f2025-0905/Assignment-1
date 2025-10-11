@@ -52,9 +52,9 @@ int main() {
     
     cout << "\n";
 
-    // Finding Equality among three numbers
+    // Finding Equality among three numbers 
     
-    bool iEqual;
+    bool iEqual;   
     
    if (num_1 == num_2) {
       iEqual = true;
@@ -66,7 +66,7 @@ int main() {
    
    if (iEqual == true) {
        string equality = (num_1 == num_3)? "All numbers are equal" : "All numbers are not equal";
-       cout << equality;
+       cout << equality;  
    } else {
        cout << "All numbers are not equal";
    }
