@@ -17,56 +17,54 @@ int main() {
     cin >> num_3;
     
     // Finding the largest number
-    int largest_1;
-    if (num_1 > num_2) {
-        largest_1 = num_1;
-    } else {
-        largest_1 = num_2;
-    }
     
     cout << "\n";
-    
-    if (largest_1 > num_3) {
-        cout << "largest number= " << largest_1 << endl;
+    if (num_1 == num_2 && num_1 == num_3) {
+        cout << "No maximum, all are equal" << endl;
     } else {
-        cout << "largest number= " << num_3 << endl;
+     if (num_1 > num_2) {
+        if (num_1 > num_3) {
+            cout << "Number 1 is greatest which is " << num_1 << endl;
+        } else {
+            cout << "Number 3 is greatest which is " << num_3 << endl;
+        }
+    } else {
+        if (num_2 > num_3) {
+            cout << "Number 2 is greatest which is " << num_2 << endl;
+        } else {
+            cout << "Number 3 is greatest which is " << num_3 << endl;
+        }
+    }
     }
     
     
     // Finding Smallest number
     
-    int smallest_1;
+    if (num_1 == num_2 && num_1 == num_3) {
+        cout << "No minimum, all are equal" << endl;
+    } else {
     if (num_1 < num_2) {
-        smallest_1 = num_1;
+        if (num_1 < num_3) {
+            cout << "Number 1 is smallest which is " << num_1 << endl;
+        } else {
+            cout << "Number 3 is smallest which is " << num_3 << endl;
+        }
     } else {
-        smallest_1 = num_2;
-    };
+        if (num_2 < num_3) {
+            cout << "Number 2 is smallest which is " << num_2 << endl;
+        } else {
+            cout << "Number 3 is smallest which is " << num_3 << endl;
+        }
+    }
+    }
     
-    cout << "\n";
-    
-    if (smallest_1 < num_3) {
-        cout << "smallest number= " << smallest_1 << endl;
-    } else {
-        cout << "smallest number= " << num_3 << endl;
-    };
-    
-    cout << "\n";
 
     // Finding Equality among three numbers 
     
-    bool iEqual;   
-    
-   if (num_1 == num_2) {
-      iEqual = true;
-   } else {
-       iEqual = false;
-   };
-
-
+ 
    
-   if (iEqual == true) {
-       string equality = (num_1 == num_3)? "All numbers are equal" : "All numbers are not equal";
-       cout << equality;  
+   if (num_1 == num_2 && num_1 == num_3) {
+       cout << "All numbers are equal";
    } else {
        cout << "All numbers are not equal";
    }

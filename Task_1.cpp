@@ -37,10 +37,10 @@ cout << "num 2= " << num_2 << endl;
 
 // Showing same results again in integer
 cout << "\n";
-cout << num_1+num_2 << endl;
-cout << num_1-num_2 << endl;
-cout << num_1*num_2 << endl;
-cout << num_1/num_2 << endl;
+cout << "int sum= " << num_1+num_2 << endl;
+cout << "int difference= " << num_1-num_2 << endl;
+cout << "int product= " << num_1*num_2 << endl;
+cout << "int qoutient= " << num_1/num_2 << endl;
 
 // Both results have little difference i.e out put of float variable is in float
 // after casting into integer output is also in int variable.
