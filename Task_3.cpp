@@ -66,7 +66,7 @@ int main() {
    if (num_1 == num_2 && num_1 == num_3) {
        cout << "All numbers are equal";
    } else {
-       cout << "All numbers are equal";
+       cout << "All numbers are not equal";
    }
     
 
